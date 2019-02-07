@@ -1,0 +1,63 @@
+    .topnav .icon {
+        display: none;
+    }
+
+    .topnav .search-container button {
+        float: right;
+        min-width:0;
+      }
+
+      .dropdown-content {
+        min-width: 200px;
+      }
+
+      .cruise {
+        padding-left:0; // This is to add padding on the left margin to center the small mobile image
+    }
+
+    .numbertext {
+        margin-left: 0; // This is for mobile to read the 1/4 page number
+      }
+
+      .newArticles h1 {
+        margin-left: 2%;
+    }
+
+    .blogArticles {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 350px 350px;
+        height: 610px;
+        .article1 {
+            margin-bottom: 1%;
+            height: 250px;
+        }
+        .article2 {
+            margin-bottom: 1%;
+            height: 250px;
+        }
+        .article3 {
+            margin-bottom: 1%;
+            height: 250px;
+        }
+        .article4 {
+            margin-bottom: 1%;
+            height: 250px;
+        }
+
+    }
+
+
+
+.info {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "contact newsletter"
+        "cruiseInfo cruiseInfo";
+        grid-column-gap: 20px;
+        margin: 0 3% 6%;
+}
+
+.copyright {
+    padding:1.5%;
+}

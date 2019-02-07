@@ -1,0 +1,59 @@
+.header-right {
+    box-shadow: 3px 6px 6px #003366;
+  }
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .dropdown-content {
+    min-width: 200px;
+  }
+
+  .newArticles h1 {
+    margin-left: 0;
+}
+.blogArticles {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "article1 article2 article3 article4";
+    grid-column-gap: 10px;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .article1 {
+      margin-bottom: 2%;
+      width: 290px;
+      height: 290px;
+  }
+    .article2 {
+      margin-bottom: 2%;
+      width: 290px;
+      height: 290px;
+  }
+    .article3 {
+      margin-bottom: 2%;
+      width: 290px;
+      height: 290px;
+  }
+    .article4 {
+      margin-bottom: 2%;
+      width: 290px;
+      height: 290px;
+  }
+}
+
+.info {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+      "contact newsletter cruiseInfo";
+      grid-column-gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      margin-bottom: 2%;
+}
+
