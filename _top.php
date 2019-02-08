@@ -15,12 +15,14 @@
 <body>
     <header>
         <div class="header">
+            <a href="index.php">
             <picture>
                     <source srcset="img/CC-Logo-SM.svg" media="(max-width:35em)">
                     <source srcset="img/CC-Logo-MD.svg" media="(max-width:48em)"> 
                     <source srcset="img/CC-Logo-LG.svg">
                     <img srcset="img/CC-Logo-LG.svg" width="339" height="97" alt="My Default image">
             </picture>
+</a>
             <div class="header-right"> 
                     <a class="telephone" href="tel:18665771000">1-866-577-1000</a>
                 </div> 
