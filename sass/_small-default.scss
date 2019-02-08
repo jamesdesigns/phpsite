@@ -520,6 +520,11 @@ input[type=search]:focus {
     }
 }
 
+.cruiseContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 footer {
     background: $white;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #C8C8C8, $white);  /* Chrome 10-25, Safari 5.1-6 */
