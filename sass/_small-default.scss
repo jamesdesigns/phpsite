@@ -594,6 +594,7 @@ input[type=search]:focus {
 .form {
   max-width: 1200px;
   margin: 0 auto;
+  margin-left: 3%;
 
   .column {
 
@@ -613,6 +614,32 @@ input[type=search]:focus {
       width: 350px;
       font-size: 100%;
     }
+    .cruises {
+      padding: 5px;
+      height: 35px;
+      width: 350px;
+      font-size: 100%;
+    }
+    .button {
+      background-color: #e9e9e9; /* Green */
+      border: none;
+      color: #484848;
+      padding: 8px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      margin-bottom: 5%;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+    }
+
+    .button2:hover {
+      background-color: #2196F3;  
+      color: #fff;
+}
   }
 }
 

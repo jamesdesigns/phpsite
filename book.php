@@ -80,10 +80,17 @@ include '_top.php';
        <label for="emailaddress">Email Address</label><br>
         <input type="text" id="emailaddress" name="emailaddress" required
        minlength="4" maxlength="200" size="200"><br>
-       <label for="cruiseselection">Cruise Selection</label><br>
-        <input type="text" id="cruiseselection" name="cruiseselection" required
-       minlength="4" maxlength="200" size="200"><br>
-       <button class="button2">Book My Cruise</button>
+       <label for="state">Cruises</label><br>
+       <form action="" method="get">
+        <select name="cruises" class="cruises">
+            <option value="Alfo Nero">Alfa Nero</option>
+            <option value="Savannah">Savannah</option>
+            <option value="Seven Sins">Seven Sins</option>
+            <option value="Solo">Solo</option>
+        </select>
+</form>
+<br>
+       <button class="button button2">Book My Cruise</button>
        
     </div>
 </div>
