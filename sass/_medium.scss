@@ -144,7 +144,29 @@
             color: #fff;
       }
         }
-      }     
+      }    
+      
+      
+      .agents {
+        max-width: 1200px;
+        margin:0 auto;
+        margin-top: 2%;
+        margin-bottom: 3%;
+      
+        .agentHeader {
+          background-color: $orange;
+          margin-top: -15px;
+          margin-bottom: 3%;
+          padding: 15px 0;
+      
+          h1 {
+            font-size: 135%;
+            font-weight: bold;
+            margin-left: 2%;
+          }
+      
+        }    
+    } 
 
 
 

@@ -559,6 +559,30 @@ input[type=search]:focus {
     background-color: #2196F3;
     color: #fff; }
 
+.agents {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 3%; }
+  .agents .agentHeader {
+    background-color: #FCCB51;
+    margin-top: -8px;
+    margin-bottom: 3%;
+    padding: 15px 0; }
+    .agents .agentHeader h1 {
+      font-size: 135%;
+      font-weight: bold;
+      margin-left: 3%; }
+    .agents .agentHeader p {
+      margin-left: 3%; }
+  .agents h2 {
+    font-size: 105%;
+    font-weight: bold;
+    margin-left: 2%; }
+  .agents p {
+    margin-left: 2%;
+    margin-left: 2%; }
+
 footer {
   background: #fff;
   /* fallback for old browsers */
@@ -750,6 +774,21 @@ footer {
       background-color: #2196F3;
       color: #fff; }
 
+  .agents {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 3%; }
+    .agents .agentHeader {
+      background-color: #FCCB51;
+      margin-top: -15px;
+      margin-bottom: 3%;
+      padding: 15px 0; }
+      .agents .agentHeader h1 {
+        font-size: 135%;
+        font-weight: bold;
+        margin-left: 2%; }
+
   .info {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "contact newsletter" "cruiseInfo cruiseInfo";
@@ -868,6 +907,21 @@ footer {
     .form .column .button2:hover {
       background-color: #2196F3;
       color: #fff; }
+
+  .agents {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 3%; }
+    .agents .agentHeader {
+      background-color: #FCCB51;
+      margin-top: -29px;
+      margin-bottom: 3%;
+      padding: 15px 0; }
+      .agents .agentHeader h1 {
+        font-size: 135%;
+        font-weight: bold;
+        margin-left: 2%; }
 
   .info {
     grid-template-columns: 1fr 1fr 1fr;
