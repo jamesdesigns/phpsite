@@ -608,22 +608,38 @@ input[type=search]:focus {
       width: 350px;
       padding: 5px;
       margin-bottom: 1%;
+      font-size: 90%;
+    }
+    input::placeholder {
+      font-size: 80%;
+      color: #C8C8C8;
+    }
+
+    input:required:invalid, input:focus:invalid {
+      border-left: 3px solid red;
+    }
+    
+    input:required:valid {
+      border: 1px solid #383838;
     }
     .states {
       padding: 5px;
       height: 35px;
       width: 350px;
-      font-size: 100%;
+      font-size: 90%;
+      font-family: $defaultFont;
     }
     .cruises {
       padding: 5px;
       height: 35px;
       width: 350px;
-      font-size: 100%;
+      font-size: 90%;
+      font-family: $defaultFont;
     }
     .button {
       background-color: #e9e9e9; /* Green */
       border: none;
+      border-radius: 5px;
       color: #484848;
       padding: 8px 32px;
       text-align: center;
