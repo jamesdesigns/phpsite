@@ -517,6 +517,23 @@ input[type=search]:focus {
         background-color: #2196F3;
         color: #fff; }
 
+.form {
+  max-width: 1200px;
+  margin: 0 auto; }
+  .form .column .title {
+    font-size: 140%;
+    margin-top: 2%;
+    margin-bottom: 2%; }
+  .form .column input {
+    width: 350px;
+    padding: 5px;
+    margin-bottom: 1%; }
+  .form .column .states {
+    padding: 5px;
+    height: 35px;
+    width: 350px;
+    font-size: 100%; }
+
 footer {
   background: #fff;
   /* fallback for old browsers */
