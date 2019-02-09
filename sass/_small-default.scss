@@ -680,6 +680,13 @@ input[type=search]:focus {
     float:right;
     margin-left: 3%;
     margin-right: 3%;
+    figcaption {
+      text-align: center;
+      font-size: 90%;
+      border-bottom: 1px dotted #787878;
+      padding-bottom: 1%;
+      margin-bottom: 3%;
+    }
 
   }
 }

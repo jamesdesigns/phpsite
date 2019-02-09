@@ -9,7 +9,14 @@ include '_top.php';
 <h1>Agent - Jay Willardson</h1>
 </div>
 <div class="agentImg">
+
+<figure>
 <img src="img/agentJay.jpg" alt="Agent Jay Willardson">
+  <figcaption>Contact Jay Willardson to book a cruise.</figcaption>
+</figure>
+
+
+
 </div>
 
 <h2>Phone:</h2>
