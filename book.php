@@ -10,10 +10,10 @@ include '_top.php';
         <input type="text" id="fullname" name="fullname" required
        minlength="4" maxlength="200" size="200"><br>
        <label for="addressline">Address Line</label><br>
-        <input type="text" id="addressline" name="addressline" required
+        <input type="text" id="addressline" name="addressline"
        minlength="4" maxlength="200" size="200"><br>
        <label for="city">City</label><br>
-        <input type="text" id="city" name="city" required
+        <input type="text" id="city" name="city"
        minlength="4" maxlength="200" size="200"><br>
        <label for="state">State</label><br>
        <form action="" method="get">
@@ -72,10 +72,10 @@ include '_top.php';
 
         </form><br>
        <label for="zipcode">Zipcode</label><br>
-        <input type="text" id="zipcode" name="zipcode" required
+        <input type="text" id="zipcode" name="zipcode"
        minlength="4" maxlength="200" size="200"><br>
        <label for="phonenumber">Phone Number</label><br>
-        <input type="text" id="phonenumber" name="phonenumber" required
+        <input type="text" id="phonenumber" name="phonenumber"
        minlength="4" maxlength="200" size="200"><br>
        <label for="emailaddress">Email Address</label><br>
         <input type="text" id="emailaddress" name="emailaddress" required
