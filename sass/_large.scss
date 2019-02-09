@@ -51,18 +51,23 @@
   max-width: 1200px;
   margin: 0 auto;
 
+  .title {
+  margin-left: 0;
+  }
+
   .excursion {
     display: flex;
     flex-direction: row;
+    margin-left: 0;
+    margin-right: 0;
 
     .block1 {
       flex-grow: 1;
       margin-bottom: 3%;
 
-
       .liner {
-        img: 100%;
-        width: auto;
+        width: 300px;
+        height: 200px;
       }
     }
 

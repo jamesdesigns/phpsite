@@ -468,6 +468,12 @@ input[type=search]:focus {
 .cruiseContainer {
   max-width: 1200px;
   margin: 0 auto; }
+  .cruiseContainer .title {
+    font-size: 145%;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%; }
   .cruiseContainer .excursion {
     display: flex;
     flex-direction: column;
@@ -478,8 +484,8 @@ input[type=search]:focus {
       flex-wrap: wrap;
       margin-bottom: 2%; }
       .cruiseContainer .excursion .block1 .liner {
-        img: 100%;
-        width: auto; }
+        width: 100%;
+        height: auto; }
     .cruiseContainer .excursion .block2 {
       flex-grow: 2;
       flex-wrap: wrap; }
@@ -490,9 +496,26 @@ input[type=search]:focus {
       .cruiseContainer .excursion .block2 p {
         margin-bottom: 2%; }
       .cruiseContainer .excursion .block2 button {
-        margin-bottom: 3%;
         width: 100%;
-        float: right; }
+        float: right;
+        background-color: #e9e9e9;
+        border: none;
+        border-radius: 5px;
+        color: #484848;
+        padding: 8px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        margin-bottom: 5%;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s; }
+      .cruiseContainer .excursion .block2 button:hover {
+        background-color: #2196F3;
+        color: #fff; }
 
 footer {
   background: #fff;
@@ -617,15 +640,19 @@ footer {
   .cruiseContainer {
     max-width: 1200px;
     margin: 0 auto; }
+    .cruiseContainer .title {
+      margin-left: 3%; }
     .cruiseContainer .excursion {
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      margin-left: 3%;
+      margin-right: 3%; }
       .cruiseContainer .excursion .block1 {
         flex-grow: 1;
         margin-bottom: 3%; }
         .cruiseContainer .excursion .block1 .liner {
-          img: 100%;
-          width: auto; }
+          width: 300px;
+          height: 200px; }
       .cruiseContainer .excursion .block2 {
         flex-grow: 2;
         margin-left: 3%; }
@@ -691,15 +718,19 @@ footer {
   .cruiseContainer {
     max-width: 1200px;
     margin: 0 auto; }
+    .cruiseContainer .title {
+      margin-left: 0; }
     .cruiseContainer .excursion {
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      margin-left: 0;
+      margin-right: 0; }
       .cruiseContainer .excursion .block1 {
         flex-grow: 1;
         margin-bottom: 3%; }
         .cruiseContainer .excursion .block1 .liner {
-          img: 100%;
-          width: auto; }
+          width: 300px;
+          height: 200px; }
       .cruiseContainer .excursion .block2 {
         flex-grow: 2;
         margin-left: 3%; }
