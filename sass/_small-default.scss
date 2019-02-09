@@ -600,6 +600,7 @@ input[type=search]:focus {
 
     .title {
       font-size: 140%;
+      font-weight: bold;
       margin-top: 2%;
       margin-bottom: 2%;
     }
@@ -662,20 +663,24 @@ input[type=search]:focus {
     }
     p {
       margin-left: 3%;
+      margin-right: 3%;
     }
-
   }
-
-
 
   h2 {
     font-size: 105%;
     font-weight: bold;
-    margin-left: 2%;
+    margin-left: 3%;
   }
   p {
-    margin-left: 2%;
-    margin-left: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .agentImg {
+    float:right;
+    margin-left: 3%;
+    margin-right: 3%;
+
   }
 }
 

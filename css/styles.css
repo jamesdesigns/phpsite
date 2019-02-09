@@ -523,6 +523,7 @@ input[type=search]:focus {
   margin-left: 3%; }
   .form .column .title {
     font-size: 140%;
+    font-weight: bold;
     margin-top: 2%;
     margin-bottom: 2%; }
   .form .column input {
@@ -574,14 +575,19 @@ input[type=search]:focus {
       font-weight: bold;
       margin-left: 3%; }
     .agents .agentHeader p {
-      margin-left: 3%; }
+      margin-left: 3%;
+      margin-right: 3%; }
   .agents h2 {
     font-size: 105%;
     font-weight: bold;
-    margin-left: 2%; }
+    margin-left: 3%; }
   .agents p {
-    margin-left: 2%;
-    margin-left: 2%; }
+    margin-left: 3%;
+    margin-right: 3%; }
+  .agents .agentImg {
+    float: right;
+    margin-left: 3%;
+    margin-right: 3%; }
 
 footer {
   background: #fff;
@@ -915,12 +921,14 @@ footer {
     margin-bottom: 3%; }
     .agents .agentHeader {
       background-color: #FCCB51;
-      margin-top: -29px;
+      margin-top: -28px;
       margin-bottom: 3%;
       padding: 15px 0; }
       .agents .agentHeader h1 {
         font-size: 135%;
         font-weight: bold;
+        margin-left: 2%; }
+      .agents .agentHeader p {
         margin-left: 2%; }
 
   .info {

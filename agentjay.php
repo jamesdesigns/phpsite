@@ -4,9 +4,14 @@ include '_top.php';
 ?>
 
 <div class="agents">
+
  <div class="agentHeader">   
 <h1>Agent - Jay Willardson</h1>
 </div>
+<div class="agentImg">
+<img src="img/agentJay.jpg" alt="Agent Jay Willardson">
+</div>
+
 <h2>Phone:</h2>
 <p>1-800-555-1234 ext 12</p>
 <br>
@@ -31,17 +36,7 @@ include '_top.php';
     such wonderful memories." -John Doe</p>
 <p>"Thank you for your cheery attitude and hard work during the planning of our tour!"  -The Smith's</p> 
 <p>"Thanks for your patience and efficiency. Let's do it again sometime very soon!" -Jane and John Westagar</p>  
-</div>
-
-
-
 
 </div>
-
-
-
-
-
-
-
+</div>
 <?php include '_bot.php' ?>
