@@ -468,6 +468,31 @@ input[type=search]:focus {
 .cruiseContainer {
   max-width: 1200px;
   margin: 0 auto; }
+  .cruiseContainer .excursion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%; }
+    .cruiseContainer .excursion .block1 {
+      flex-grow: 1;
+      flex-wrap: wrap;
+      margin-bottom: 2%; }
+      .cruiseContainer .excursion .block1 .liner {
+        img: 100%;
+        width: auto; }
+    .cruiseContainer .excursion .block2 {
+      flex-grow: 2;
+      flex-wrap: wrap; }
+      .cruiseContainer .excursion .block2 h2 {
+        font-size: 125%;
+        font-weight: bold;
+        margin-bottom: 15px; }
+      .cruiseContainer .excursion .block2 p {
+        margin-bottom: 2%; }
+      .cruiseContainer .excursion .block2 button {
+        margin-bottom: 3%;
+        width: 100%;
+        float: right; }
 
 footer {
   background: #fff;
@@ -589,6 +614,31 @@ footer {
       margin-bottom: 1%;
       height: 250px; }
 
+  .cruiseContainer {
+    max-width: 1200px;
+    margin: 0 auto; }
+    .cruiseContainer .excursion {
+      display: flex;
+      flex-direction: row; }
+      .cruiseContainer .excursion .block1 {
+        flex-grow: 1;
+        margin-bottom: 3%; }
+        .cruiseContainer .excursion .block1 .liner {
+          img: 100%;
+          width: auto; }
+      .cruiseContainer .excursion .block2 {
+        flex-grow: 2;
+        margin-left: 3%; }
+        .cruiseContainer .excursion .block2 h2 {
+          font-size: 125%;
+          font-weight: bold;
+          margin-bottom: 15px; }
+        .cruiseContainer .excursion .block2 p {
+          margin-bottom: 2%; }
+        .cruiseContainer .excursion .block2 button {
+          margin-bottom: 3%;
+          width: 175px; }
+
   .info {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "contact newsletter" "cruiseInfo cruiseInfo";
@@ -637,6 +687,31 @@ footer {
       margin-bottom: 2%;
       width: 290px;
       height: 290px; }
+
+  .cruiseContainer {
+    max-width: 1200px;
+    margin: 0 auto; }
+    .cruiseContainer .excursion {
+      display: flex;
+      flex-direction: row; }
+      .cruiseContainer .excursion .block1 {
+        flex-grow: 1;
+        margin-bottom: 3%; }
+        .cruiseContainer .excursion .block1 .liner {
+          img: 100%;
+          width: auto; }
+      .cruiseContainer .excursion .block2 {
+        flex-grow: 2;
+        margin-left: 3%; }
+        .cruiseContainer .excursion .block2 h2 {
+          font-size: 125%;
+          font-weight: bold;
+          margin-bottom: 15px; }
+        .cruiseContainer .excursion .block2 p {
+          margin-bottom: 2%; }
+        .cruiseContainer .excursion .block2 button {
+          margin-bottom: 3%;
+          width: 175px; }
 
   .info {
     grid-template-columns: 1fr 1fr 1fr;

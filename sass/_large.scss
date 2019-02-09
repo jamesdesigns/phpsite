@@ -47,6 +47,47 @@
   }
 }
 
+.cruiseContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .excursion {
+    display: flex;
+    flex-direction: row;
+
+    .block1 {
+      flex-grow: 1;
+      margin-bottom: 3%;
+
+
+      .liner {
+        img: 100%;
+        width: auto;
+      }
+    }
+
+    .block2 {
+      flex-grow: 2;
+      margin-left: 3%;
+
+      h2 {
+        font-size: 125%;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+      p {
+        margin-bottom: 2%;
+      }
+      button {
+        margin-bottom: 3%;
+        width: 175px;
+      }
+    }
+   
+
+  }
+}
+
 .info {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
