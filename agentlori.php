@@ -39,7 +39,7 @@ include '_top.php';
 </p>
 <br>
 <h2>Customer Comment:</h2>
-<p>"Thank you Wendy for all your planning and efforts to ensure that we could enjoy our tour and bring back
+<p>"Thank you Lori for all your planning and efforts to ensure that we could enjoy our tour and bring back
     such wonderful memories." -John Doe</p>
 <p>"Thank you for your cheery attitude and hard work during the planning of our tour!"  -The Smith's</p> 
 <p>"Thanks for your patience and efficiency. Let's do it again sometime very soon!" -Jane and John Westagar</p>  
