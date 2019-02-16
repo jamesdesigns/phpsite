@@ -12,11 +12,11 @@
       }
 
       .cruise {
-        padding-left:0; // This is to add padding on the left margin to center the small mobile image
+        padding-left:0; 
     }
 
     .numbertext {
-        margin-left: 0; // This is for mobile to read the 1/4 page number
+        margin-left: 0; 
       }
 
       .newArticles h1 {
@@ -65,7 +65,7 @@
             flex-grow: 1;
             margin-bottom: 3%;
 
-            .liner {
+            img.liner {
                 width: 300px;
                 height: 200px;
               }
@@ -85,6 +85,7 @@
               margin-bottom: 2%;
             }
             button {
+              float: right;
               margin-bottom: 3%;
               width: 175px;
             }
@@ -98,54 +99,14 @@
       .form {
         max-width: 1200px;
         margin: 0 auto;
-        margin-left: 3%;
+      
         .column {
-      
-          .title {
-            font-size: 140%;
-            margin-top: 2%;
-            margin-bottom: 2%;
-          }
-          input {
-            width: 350px;
-            padding: 5px;
-            margin-bottom: 1%;
-          }
-          .states {
-            padding: 5px;
-            height: 35px;
-            width: 350px;
-            font-size: 100%;
-          }
-          .cruises {
-            padding: 5px;
-            height: 35px;
-            width: 350px;
-            font-size: 100%;
-          }
-          .button {
-            background-color: #e9e9e9; /* Green */
-            border: none;
-            color: #484848;
-            padding: 8px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            margin-bottom: 5%;
-            cursor: pointer;
-            -webkit-transition-duration: 0.4s; /* Safari */
-            transition-duration: 0.4s;
-          }
-      
-          .button2:hover {
-            background-color: #2196F3;  
-            color: #fff;
-      }
+          width: 350px;
+          margin-left: 2%;
+          margin-right: 2%;
         }
-      }    
-      
+      }      
+
       
       .agents {
         max-width: 1200px;
@@ -165,8 +126,57 @@
             margin-left: 2%;
           }
       
-        }    
-    } 
+        } 
+
+        
+        .agentImg {
+          display: block;
+          width: 400px;
+          float: right;
+          margin: 0 2% 3% 3%;
+          figure {
+
+            img {
+              width: 400px;
+              float:right;
+              
+            }
+            figcaption {
+              width: 400px;
+              float: right;
+              border-bottom: 1px dotted #a8a8a8;
+              margin-bottom: 15px;
+              text-align: center;
+              padding: 1%;
+            }
+          }
+        }
+        
+          
+          .agentContent {
+            margin-left: 3%;
+            margin-right: 3%;
+          }
+        
+        } 
+
+
+      // .agentImg {
+      //   figure {
+
+      //     figcaption {
+      //       border-bottom: 1px dotted #a8a8a8;
+      //       margin-bottom: 15px;
+      //       text-align: center;
+      //       padding: 1%;
+      //     }
+
+      //   }
+      // }
+        h2, p {
+          // margin-left: 2%;
+        }  
+    
 
 
 

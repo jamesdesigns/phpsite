@@ -8,17 +8,15 @@ include '_top.php';
  <div class="agentHeader">   
 <h1>Agent - Jay Willardson</h1>
 </div>
-<div class="agentImg">
 
+<div class="agentImg">
 <figure>
-<img src="img/agentJay.jpg" alt="Agent Jay Willardson">
+  <img src="img/agentJay.jpg" alt="Agent Jay Willardson">
   <figcaption>Contact Jay Willardson to book a cruise.</figcaption>
 </figure>
-
-
-
 </div>
 
+<div class="agentContent">
 <h2>Phone:</h2>
 <p>1-800-576-1000 ext 15</p>
 <br>
@@ -40,6 +38,7 @@ include '_top.php';
     such wonderful memories." -Jason Miller</p>
 <p>"Thank you for all your hard work and dedication in helping us find our dream vacation in the Bahamas!"  -The Jensen's</p> 
 <p>"Thanks for your help finding the most romantic cruise out there. Let's do it again sometime very soon!" -John and Stephanie Miller</p>  
+</div>
 
 </div>
 </div>

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cabot Cruises</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
@@ -23,6 +25,7 @@
                     <img srcset="img/CC-Logo-LG.svg" width="339" height="97" alt="My Default image">
             </picture>
 </a>
+            <div id="userGreeting"></div>
             <div class="header-right"> 
                     <a class="telephone" href="tel:18665771000">1-866-577-1000</a>
                 </div> 
@@ -30,19 +33,20 @@
     </header>
 
 
-    <section id="myNav">
+    <nav id="myNav">
         <div class="topnav" id="myTopnav">
+        <?php $page=$_REQUEST['page']; ?>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-                <a class="active" href="index.php">Home</a>
-                <a href="cruises.php">Cruises</a>
-                <a href="book.php">Book</a>
+                <a href="index.php?page=home"<?=($page=='home'?' class="active"':'');?>>Home</a>
+                <a href="cruises.php?page=cruises"<?=($page=='cruises'?' class="active"':'');?>>Cruises</a>
+                <a href="book.php?page=book"<?=($page=='book'?' class="active"':'');?>>Book</a>
                 <div class="dropdown">
                         <button class="dropbtn">Agents 
                           <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                          <a href="agentjay.php">Jay Willardson</a>
-                          <a href="agentlori.php">Lori Reynolds</a>
+                          <a href="agentjay.php?page=agentjay"<?=($page=='agentjay'?' class="active"':'');?>>Jay Willardson</a>
+                          <a href="agentlori.php?page=agentlori"<?=($page=='agentlori'?' class="active"':'');?>>Lori Reynolds</a>
                         </div>
                       </div> 
                 <div class="search-container">
@@ -52,4 +56,4 @@
                   </form>
                 </div>
               </div>
-        </section>
+</nav>

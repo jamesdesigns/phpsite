@@ -43,8 +43,22 @@
         </div>
     </footer>
     </main>
-    <script type="text/javascript" src="js/slideshow.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
     <script type="application/ld+json" src="js/destinations.js"></script>
     <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/greeting.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script type="text/javascript" src="js/slideshow.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.thing').slick({
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 4000
+            });
+        });
+    </script>
 </body>
 </html>
