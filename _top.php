@@ -48,7 +48,7 @@
                           <a href="agentjay.php?page=agentjay"<?=($page=='agentjay'?' class="active"':'');?>>Jay Willardson</a>
                           <a href="agentlori.php?page=agentlori"<?=($page=='agentlori'?' class="active"':'');?>>Lori Reynolds</a>
                         </div>
-                      </div> 
+                </div> 
                 <div class="search-container">
                   <form action="/action_page.php">
                     <input type="text" placeholder="Search.." name="search">
