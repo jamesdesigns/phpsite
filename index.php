@@ -3,11 +3,6 @@ $title = "Home";
 include '_top.php';
 ?>
 
-
-
-
-
-
 <!-- Start the  index.php page --------------------->
 <section>
 <div class="thing" id="wrapper">

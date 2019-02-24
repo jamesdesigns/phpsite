@@ -33,27 +33,32 @@
     </header>
 
 
-    <nav id="myNav">
-        <div class="topnav" id="myTopnav">
-        <?php $page=$_REQUEST['page']; ?>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-                <a href="index.php?page=home"<?=($page=='home'?' class="active"':'');?>>Home</a>
-                <a href="cruises.php?page=cruises"<?=($page=='cruises'?' class="active"':'');?>>Cruises</a>
-                <a href="book.php?page=book"<?=($page=='book'?' class="active"':'');?>>Book</a>
-                <div class="dropdown">
-                        <button class="dropbtn">Agents 
-                          <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                          <a href="agentjay.php?page=agentjay"<?=($page=='agentjay'?' class="active"':'');?>>Jay Willardson</a>
-                          <a href="agentlori.php?page=agentlori"<?=($page=='agentlori'?' class="active"':'');?>>Lori Reynolds</a>
-                        </div>
-                </div> 
-                <div class="search-container">
-                  <form action="/action_page.php">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                  </form>
-                </div>
-              </div>
-</nav>
+    <!-- NAVIGATION -->
+<div class="navwrap">
+    <div class="topnav" id="myTopnav">
+
+    <?php $page=$_REQUEST['page']; ?>
+
+       <a href="index.php?page=home"<?=($page=='home'?' class="active"':'');?>>HOME</a>
+       <a href="cruises.php?page=cruises"<?=($page=='cruises'?' class="active"':'');?>>CRUISES</a>
+       <a href="book.php?page=book"<?=($page=='book'?' class="active"':'');?>>BOOK</a>
+       <div class="dropdown">
+          <button class="dropbtn">AGENTS
+             &nbsp;&#9662;
+          </button>
+          <div class="dropdown-content">
+             <a href="agentjay.php?page=agentjay"<?=($page=='agentjay'?' class="active"':'');?>>Jay Willardson</a>
+             <a href="agentlori.php?page=agentlori"<?=($page=='agentlori'?' class="active"':'');?>>Lori Reynolds</a>
+          </div>
+       </div>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+       </a>
+      <div class="search">
+          <input type="search" name="search" id="search" placeholder="Search...">
+          <button class="mySearch"><i class="fa fa-search fa-2x"></i></button>
+       </div>
+    </div>
+ </div>
+
+
