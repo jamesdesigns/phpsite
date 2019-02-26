@@ -4,7 +4,7 @@ include '_top.php';
 ?>
 
 <!-- Start the  index.php page --------------------->
-<section>
+
 <div class="thing" id="wrapper">
 
         <picture class="cruise">
@@ -31,7 +31,7 @@ include '_top.php';
             <img srcset="img/yacht4.jpg" alt="slider image">
         </picture>
 </div>
-</section>
+
 <section>
     <div class="newArticles"><h1>Recent Blog Articles</h1></div>
     <div class="blogArticles">

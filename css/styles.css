@@ -97,7 +97,9 @@ header {
         display: block;
         text-align: left; }
       header .header .header-right {
-        float: none; } }
+        float: none; }
+        header .header .header-right .telephone {
+          margin-left: 1%; } }
 
 /* ----------- NEW NAV MENU  -------*/
 .topnav {
@@ -170,7 +172,7 @@ input {
 
 #search {
   border: 1px solid #ccc;
-  padding: 10px 9px 7px 9px;
+  padding: 10px 9px 6px 9px;
   width: 75px;
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
@@ -184,9 +186,7 @@ input {
   margin-left: -5px;
   background-color: #C8C8C8;
   color: #484848;
-  margin-right: 10px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px; }
+  margin-right: 10px; }
 
 /* Removes text input glow */
 textarea, select, input, button {
@@ -205,14 +205,14 @@ textarea, select, input, button {
     border-radius: 10px; }
 
   .search {
-    margin-bottom: 8px; }
+    margin-bottom: 8px;
+    margin-right: 10%; }
 
   #search {
-    border-radius: 5px;
     padding: 10px 9px 7px 9px;
     border: 1px solid #ccc;
-    padding: 9px;
-    width: 16rem;
+    border-radius: unset;
+    width: 13rem;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     transition: all .5s ease; }
@@ -225,9 +225,7 @@ textarea, select, input, button {
     padding: 3px 5px 6px 3px;
     background-color: #C8C8C8;
     color: #484848;
-    margin-right: 10px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px; } }
+    margin-right: 10px; } }
 @media screen and (max-width: 600px) {
   .search-container {
     display: none; }
@@ -263,16 +261,11 @@ textarea, select, input, button {
   .newArticles h1 {
     padding-top: 20px;
     margin-left: 3%; } }
-/* -------------------- MENU ------------------- */
-/* ------------- DROPDOWMN SNIPPET -------------*/
-/* ------------- END OF DROPDOWN SNIPPET ------------ */
-/* NEW HAMBURGER ICON RULES */
-/* NEW EXTRA MEDIA QUERIES FOR THE HAMBURGER ICON  */
 #wrapper {
   max-width: 1200px;
   margin: 0 auto; }
   #wrapper img {
-    width: 100%; }
+    margin: 0 auto; }
 
 .newArticles {
   max-width: 1200px;

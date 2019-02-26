@@ -19,9 +19,9 @@
         <div class="header">
             <a href="index.php">
             <picture>
-                  <source media="(max-width:37.5em)" srcset="img/CC-Logo-SM.png">
-                  <source media="(max-width:48em)" srcset="img/CC-Logo-MD.png"> 
-                  <img src="img/CC-Logo-LG.png" alt="Cabot Cruises Logo">
+                <source media="(min-width:1200px)" srcset="img/CC-Logo-LG.png">
+                <source media="(min-width:465px)" srcset="img/CC-Logo-MD.png"> 
+                <img src="img/CC-Logo-SM.png" alt="Cabot Cruises Logo" style="width:auto;">
             </picture>
 </a>
             <div id="userGreeting"></div>
