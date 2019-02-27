@@ -18,11 +18,13 @@
     <header>
         <div class="header">
             <a href="index.php">
-            <picture>
+            <img src="img/CC-Logo-LG.png" alt="Cabot Cruises Logo" srcset="img/CC-Logo-LG.png 1x, 
+            img/CC-Logo-MD.png 2x, img/CC-Logo-SM 3x">
+            <!-- <picture>
                 <source media="(min-width:1200px)" srcset="img/CC-Logo-LG.png">
                 <source media="(min-width:465px)" srcset="img/CC-Logo-MD.png"> 
                 <img src="img/CC-Logo-SM.png" alt="Cabot Cruises Logo" style="width:auto;">
-            </picture>
+            </picture> -->
 </a>
             <div id="userGreeting"></div>
             <div class="header-right"> 
